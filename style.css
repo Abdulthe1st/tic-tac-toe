@@ -1,0 +1,103 @@
+#btns {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+button {
+  cursor: pointer;
+  font-size: 30px;
+}
+
+body {
+  margin: auto;
+  width: 600px;
+  background-color: rgba(255, 255, 255, 0.7);
+
+  padding-top: 5px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+html {
+  background-image: url(images/smooth.jpg);
+  background-size: cover;
+}
+
+.btns11 {
+  background-color: grey;
+
+  color: white;
+}
+
+.btns11:hover {
+  background-color: black;
+
+  color: white;
+  transition: 0.5s;
+}
+
+#Restart {
+  background-color: black;
+  color: wheat;
+}
+
+#Restart:hover {
+  background-color: greenyellow;
+  color: black;
+  transition: all 0.5s;
+}
+
+.outputs {
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#output {
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  font-size: 18px;
+  transition: all 0.5s;
+}
+
+hr {
+  width: 300px;
+}
+
+#Restart2 {
+  background-color: black;
+  color: wheat;
+}
+
+#Restart2:hover {
+  background-color: greenyellow;
+  color: black;
+  transition: all 0.5s;
+}
+
+#btns2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+#output2 {
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
